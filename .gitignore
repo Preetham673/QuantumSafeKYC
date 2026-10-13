@@ -1,0 +1,44 @@
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Frontend dependencies and build output
+node_modules/
+dist/
+
+# Database files and local PostgreSQL data
+database/postgres_data/
+*.sql
+*.dump
+*.backup
+*.db
+*.sqlite3
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+*.bak
+
+# Cryptographic secrets
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+keys/
+
+# Local identity evidence and uploads
+uploads/
+evidence/
+BMF_Evidence/
+/backend/liboqs/
+
